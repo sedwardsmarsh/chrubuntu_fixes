@@ -18,11 +18,11 @@
 # /usr/share/X11/xorg.conf.d/10-keyboard.conf and change "gb" for "us" etc
 
 mkdir ~/backup
-su mv /usr/share/X11/xorg.conf.d/* ~/backup/
+mv /usr/share/X11/xorg.conf.d/* ~/backup/
 cd /usr/share/X11/xorg.conf.d/
-su wget https://github.com/craigerrington/chrubuntu_fixes/raw/master/xalarmchrubuntu.zip
-su unzip x_alarm_chrubuntu.zip
-su rm x_alarm_chrubuntu.zip
+wget https://github.com/craigerrington/chrubuntu_fixes/raw/master/xalarmchrubuntu.zip
+unzip x_alarm_chrubuntu.zip
+rm x_alarm_chrubuntu.zip
 
 # Set US keymap, uncomment following line
-# su sed -i 's/gb/us/g' 10-keyboard.conf
+# sed -i 's/gb/us/g' 10-keyboard.conf
