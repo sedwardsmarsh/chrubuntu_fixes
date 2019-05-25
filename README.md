@@ -1,7 +1,7 @@
 chrubuntu_fixes
 ===============
 
-Various fixes for Chrubuntu (specifically aimed at the ARM model Chromebook)
+Various fixes for Chrubuntu (specifically aimed at the ARM model Chromebook, although compatible with intel-based x86-64 Chromebooks).
 
 To fix the eratic behaviour of the trackpad in ChrUbuntu, simply clone this
 repository and execute the script.
